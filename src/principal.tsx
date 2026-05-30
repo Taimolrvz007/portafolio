@@ -23,7 +23,16 @@ const PROYECTOS = [
     solucion: "Desarrollé un servidor MCP en TypeScript que actúa de puente entre un LLM y la API de GitHub, exponiendo 9 herramientas que permiten crear repos, ramas, commits, issues y pull requests desde instrucciones en lenguaje natural.",
     repoUrl: "https://github.com/Taimolrvz007/ProyectoM5_JosueKalethSalazar.git",
     tecnologias: "TypeScript, Libreria ZOD, Framework MCP, API GitHub,Vitest"
-  }
+  }, 
+  {
+    id:4,
+  titulo: 'Task Manager Pro — Módulo 4',
+  problema: 'No había una forma de gestionar tareas con persistencia en la nube y notificaciones automáticas por correo desde una sola app.',
+  solucion: 'Gestor de tareas con React y Firebase para persistencia, más AWS SES vía Vercel Functions para envío de notificaciones por email.',
+  tecnologias: 'React, TypeScript, Firebase, AWS SES, Vercel Functions, Lucide React',
+  demoUrl: 'https://proyecto-m4-josue-kaleth-salazar.vercel.app/login',
+  repoUrl: 'https://github.com/Taimolrvz007/ProyectoM4_JosueKalethSalazar'
+  },
 ];
 
 export default function Principal() {
