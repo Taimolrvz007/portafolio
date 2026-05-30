@@ -64,7 +64,7 @@ export default function Principal() {
 
       <section>
         <h2 style={{ fontSize: 20, borderBottom: '1px solid #f0c04044', paddingBottom: 8, marginBottom: '1.5rem' }}>Contacto</h2>
-        <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+        <div style={{ justifyContent:"center", display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
           <a href="https://www.linkedin.com/in/kalethsalazar/" style={{ padding: '10px 18px', border: '1px solid #f0c040', borderRadius: 8, color: '#f0c040', textDecoration: 'none' }}>LinkedIn</a>
           <a href="https://wa.me/573133651839" style={{ padding: '10px 18px', border: '1px solid #f0c040', borderRadius: 8, color: '#f0c040', textDecoration: 'none' }}>WhatsApp</a>
           <a href="https://github.com/Taimolrvz007/" style={{ padding: '10px 18px', border: '1px solid #f0c040', borderRadius: 8, color: '#f0c040', textDecoration: 'none' }}>GitHub</a>
