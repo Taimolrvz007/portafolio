@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 const PROYECTOS = [
   {
     id:1,
@@ -29,7 +26,7 @@ const PROYECTOS = [
 
 export default function Principal() {
   return (
-    <div style={{ background: '#1a1a1a', minHeight: '100vh', padding: '2rem 1.5rem', maxWidth: '700px', margin: '0 auto', color: '#f0c040', fontFamily: 'sans-serif' }}>
+    <div style={{ background: '#1a1a1a', minHeight: '100vh', padding: '2rem 1.5rem', maxWidth: '100%', margin: '0 auto', color: '#f0c040', fontFamily: 'sans-serif' }}>
 
       <section style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1.5rem', textAlign: 'center', padding: '2rem 0', marginBottom: '3rem' }}>
         <div style={{ width: 150, height: 150, borderRadius: '50%', border: '3px solid #f0c040', background: '#2a2a2a', display: 'flex', alignItems: 'center', justifyContent: 'center', overflow: 'hidden' }}>
