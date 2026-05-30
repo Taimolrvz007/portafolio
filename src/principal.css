@@ -12,9 +12,9 @@
 .section-label { font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; color: #a07c00; font-family: sans-serif; margin-bottom: 0.5rem; }
 .section-title { font-size: 1.5rem; font-weight: 400; color: #e8b800; margin-bottom: 2.5rem; }
 
-.projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem; }
+.projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1.5rem;}
 
-.card { background: #161616; border: 1px solid #e8b80022; padding: 1.75rem; position: relative; }
+.card { background: #161616; border: 5px solid #0eff6222; padding: 1.75rem; position: relative; }
 .card-num { font-size: 0.65rem; letter-spacing: 0.2em; color: #555; font-family: sans-serif; margin-bottom: 0.75rem; text-transform: uppercase; }
 .card h3 { font-size: 1rem; font-weight: 400; color: #e8b800; margin-bottom: 1.25rem; }
 .card-row {
@@ -40,7 +40,20 @@
   line-height: 1.6;
 }
 .card-links { display: flex; gap: 1rem; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid #e8b80015; }
-.card-links a { font-size: 0.75rem; color: #e8b800; text-decoration: none; letter-spacing: 0.08em; text-transform: uppercase; font-family: sans-serif; }
+.card-links a {
+  font-size: 0.75rem;
+  color: #b909ea;
+  text-decoration: none;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-shadow: 0 0 8px #380cd8, 0 0 20px #e8b80088;
+  transition: text-shadow 0.3s ease;
+}
+
+.card-links a:hover {
+  text-shadow: 0 0 12px #e8b800, 0 0 30px #e8b800, 0 0 50px #e8b80066;
+}
 
 .contact { padding: 4rem 3rem 5rem; text-align: center; }
 .contact-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 2.5rem; }

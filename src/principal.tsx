@@ -41,7 +41,7 @@ export default function Principal() {
 
       <section className="hero">
         <div className="photo-ring">
-          <span style={{ color: '#555', fontSize: '13px', fontFamily: 'sans-serif' }}>Tu foto aquí</span>
+           <img src="photo-ring.jpeg" alt="foto" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
         </div>
         <h1>Josue Kaleth Salazar</h1>
         <p>Desarrollador Full Stack | React, Node.js & Express | Nube & Integracion AI</p>
