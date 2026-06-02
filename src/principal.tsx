@@ -32,14 +32,14 @@ const PROYECTOS = [
     tecnologias: 'React, TypeScript, Firebase, AWS SES, Vercel Functions, Lucide React',
     demoUrl: 'https://proyecto-m4-josue-kaleth-salazar.vercel.app/login',
     repoUrl: 'https://github.com/Taimolrvz007/ProyectoM4_JosueKalethSalazar'
-  },
+  },  
   {
-    id:5,
-    titulo: 'Chat Chat en Vivo con WebSocket',
-    Problema: 'En la antiguedad las personas se comunicaban por mensajes de texto, lo cual hacia que no fuera en tiempo real',
-    Solucion: 'Crear una aplicacion de chat en tiempo real con WebSocket',
-    tecnologias: 'Frontend: React 19, TypeScript, Vite, Socket.IO Client Backend: Node.js, Express 5, Socket.IO, CORS',
-    repoUrl: 'https://github.com/Taimolrvz007/chat-con-WebSocket.git',
+  id: 5,
+  titulo: 'Chat en Vivo con WebSocket',
+  problema: 'En la antiguedad las personas se comunicaban por mensajes de texto, lo cual hacia que no fuera en tiempo real con WebSocket',
+  solucion: 'Crear una aplicacion de chat en tiempo real con WebSocket',
+  tecnologias: 'Frontend: React 19, TypeScript, Vite, Socket.IO Client Backend: Node.js, Express 5, Socket.IO, CORS',
+  repoUrl: 'https://github.com/Taimolrvz007/chat-con-WebSocket.git',
   }
 ];
 
