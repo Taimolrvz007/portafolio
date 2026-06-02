@@ -39,7 +39,7 @@ const PROYECTOS = [
     Problema: 'En la antiguedad las personas se comunicaban por mensajes de texto, lo cual hacia que no fuera en tiempo real',
     Solucion: 'Crear una aplicacion de chat en tiempo real con WebSocket',
     tecnologias: 'Frontend: React 19, TypeScript, Vite, Socket.IO Client Backend: Node.js, Express 5, Socket.IO, CORS',
-    repoUrl: 'https://github.com/Taimolrvz007/chat-con-WebSocket.git'
+    repoUrl: 'https://github.com/Taimolrvz007/chat-con-WebSocket.git',
   }
 ];
 
