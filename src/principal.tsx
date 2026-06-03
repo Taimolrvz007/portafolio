@@ -1,44 +1,44 @@
 const PROYECTOS = [
   {
     id: 1,
-    titulo: "Habla con Goku - Proyecto Integrador",
-    problema: "No había una forma interactiva y entretenida de aprender sobre Dragon Ball Z / Goku usando IA, y las API keys quedaban expuestas en el frontend.",
-    solucion: "Desarrollé una SPA en JavaScript Vanilla que permite chatear con Goku usando Google Gemini AI, protegiendo la API key mediante Vercel Serverless Functions.",
-    demoUrl: "https://proyecto-m3-josue-kaleth-salazar.vercel.app",
-    repoUrl: "https://github.com/Taimolrvz007/ProyectoM3JosueKalethSalazar",
-    tecnologias: "JavaScript Vanilla,HTML5 + CSS3,History API (routing SPA),Google Gemini AI,Vercel Serverless Functions,Vitest (tests unitarios)"
+    titulo: "AutomateHub MCP Server",
+    descripcion: "Servidor MCP que conecta modelos de IA con GitHub, permitiendo ejecutar acciones mediante lenguaje natural.",
+    logros: "9 herramientas MCP implementadas,Integración con GitHub API,Validación con Zod,Testing automatizado",
+    repoUrl: "https://github.com/Taimolrvz007/ProyectoM5_JosueKalethSalazar.git",
+    tecnologias: "TypeScript, MCP Framework, GitHub API, Zod, Vitest"
   },
   {
     id: 2,
     titulo: "API Mini Blog",
-    problema: "No existía una forma sencilla de administrar autores y sus publicaciones desde una API centralizada.",
-    solucion: "Creé una API RESTful en Node.js y Express para gestionar autores y sus blogs, con documentación Swagger.",
+    descripcion: " API REST desarrollada para la gestión de autores y publicaciones, con documentación interactiva y pruebas automatizadas.",
+    logros: "CRUD completo,PostgreSQL,Documentación Swagger,Testing con Vitest y Supertest",
     repoUrl: "https://github.com/Taimolrvz007/ProyectoM2_JosueKalethSalazar.git",
-    tecnologias: "Node.js, PostgreSQL,Vitest,Supertest,Swagger"
+    tecnologias: "Node.js, Express, PostgreSQL, Swagger, Vitest, Supertest"
   },
   {
     id: 3,
-    titulo: "AutomateHub MCP Server",
-    problema: "Gestionar repositorios en GitHub requería múltiples pasos manuales o conocer comandos git, sin forma de hacerlo desde lenguaje natural con un agente de IA",
-    solucion: "Desarrollé un servidor MCP en TypeScript que actúa de puente entre un LLM y la API de GitHub, exponiendo 9 herramientas que permiten crear repos, ramas, commits, issues y pull requests desde instrucciones en lenguaje natural.",
-    repoUrl: "https://github.com/Taimolrvz007/ProyectoM5_JosueKalethSalazar.git",
-    tecnologias: "TypeScript, Libreria ZOD, Framework MCP, API GitHub,Vitest"
+    titulo: "Habla con Goku - Proyecto Integrador",
+    descripcion: "Aplicación web que permite conversar con Goku utilizando Google Gemini AI mediante una experiencia interactiva inspirada en Dragon Ball Z.",
+    logros: "Integración con Google Gemini AI,Arquitectura Serverless en Vercel,Protección de API Keys en Backend,Testing con Vitest",
+    demoUrl: "https://proyecto-m3-josue-kaleth-salazar.vercel.app",
+    repoUrl: "https://github.com/Taimolrvz007/ProyectoM3JosueKalethSalazar",
+    tecnologias: "JavaScript, HTML, CSS, Gemini AI, Vercel Functions, Vitest"
   },
   {
     id: 4,
     titulo: 'Task Manager Pro — Módulo 4',
-    problema: 'No había una forma de gestionar tareas con persistencia en la nube y notificaciones automáticas por correo desde una sola app.',
-    solucion: 'Gestor de tareas con React y Firebase para persistencia, más AWS SES vía Vercel Functions para envío de notificaciones por email.',
-    tecnologias: 'React, TypeScript, Firebase, AWS SES, Vercel Functions, Lucide React',
+    descripcion: 'Plataforma de gestión de tareas con persistencia en la nube y sistema automático de notificaciones por correo electrónico.',
+    logros: 'Gestión de tareas en tiempo real,Firebase Database,Notificaciones con AWS SES,Despliegue Serverless',
+    tecnologias: 'React, TypeScript, Firebase, AWS SES, Vercel Functions',
     demoUrl: 'https://proyecto-m4-josue-kaleth-salazar.vercel.app/login',
     repoUrl: 'https://github.com/Taimolrvz007/ProyectoM4_JosueKalethSalazar'
   },  
   {
   id: 5,
   titulo: 'Chat en Vivo con WebSocket',
-  problema: 'En la antiguedad las personas se comunicaban por mensajes de texto, lo cual hacia que no fuera en tiempo real con WebSocket',
-  solucion: 'Crear una aplicacion de chat en tiempo real con WebSocket',
-  tecnologias: 'Frontend: React 19, TypeScript, Vite, Socket.IO Client Backend: Node.js, Express 5, Socket.IO, CORS',
+  descripcion: 'Aplicación de mensajería en tiempo real desarrollada con WebSockets para comunicación instantánea entre usuarios.',
+  logros: 'Comunicación bidireccional,WebSockets,Arquitectura cliente-servidor,Manejo de múltiples conexiones',
+  tecnologias: 'React, TypeScript, Socket.IO, Node.js, Express',
   repoUrl: 'https://github.com/Taimolrvz007/chat-con-WebSocket.git',
   }
 ];
@@ -53,6 +53,20 @@ export default function Principal() {
         </div>
         <h1>Josue Kaleth Salazar</h1>
         <p>Desarrollador Full Stack | React, Node.js & Express | Nube & Integracion AI</p>
+        <p style={{ marginTop: '20px', fontSize: '16px', color: '#ce9906' }}>
+          Sobre mi: Desarrollador Full Stack especializado en Backend. Construyo APIs REST, integraciones con IA y aplicaciones cloud utilizando Node.js, TypeScript, PostgreSQL y React. Me enfoco en crear soluciones escalables aplicando buenas prácticas de arquitectura, testing y automatización.
+        </p>
+        <p style={{ marginTop: '20px', fontSize: '16px', color: '#ce9906' }}>Node.js
+TypeScript
+Express
+PostgreSQL
+React
+AWS
+Firebase
+GitHub API
+MCP
+Vitest</p>
+
         <div className="divider"></div>
       </section>
 
@@ -68,13 +82,13 @@ export default function Principal() {
               <h3>{proyecto.titulo}</h3>
 
               <div className="card-row">
-                <span className="card-key">Problema:</span>
-                <span className="card-val">{proyecto.problema}</span>
+                <span className="card-key">Descripción:</span>
+                <span className="card-val">{proyecto.descripcion}</span>
               </div>
 
               <div className="card-row">
-                <span className="card-key">Solución:</span>
-                <span className="card-val">{proyecto.solucion}</span>
+                <span className="card-key">Logros:</span>
+                <span className="card-val">{proyecto.logros}</span>
               </div>
 
               <div className="card-links">
